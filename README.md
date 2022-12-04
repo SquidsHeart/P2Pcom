@@ -7,3 +7,8 @@ A peer to peer communication system for devices on the same network
 
 ## About P2Pcom
 P2Pcom was created as a way to learn more about networking and communication between computers. In future I plan to add communication between devices on more than just the same network.
+
+
+## How to use
+1. Add username to the config file under 'USER_NAME'
+2. Generate keys using the generate_key.py script
