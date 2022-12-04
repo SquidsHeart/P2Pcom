@@ -116,7 +116,7 @@ def open_tunnel(port):
 
 
 def save_hosts(split_data, hosts_dictionary, hostslock, client_address):
-    key = split_data[2].decode()
+    key = split_data[-1].decode()
     name = split_data[1].decode()
     if (not key in hosts_dictionary.keys()):
         hosts_dictionary[key] = [name, client_address]
